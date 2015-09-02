@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 August 30, Sunday 19:24:00
+
+BeginCmp
+TimeStamp = /55E27575;
+Reference = BT1;
+ValeurCmp = Battery;
+IdModule  = bb:CR2032-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E271FF;
+Reference = C1;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E27245;
+Reference = C2;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E27339;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = bb:MADW__PLCC2-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E27378;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = bb:MADW__PLCC2-3528;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E27140;
+Reference = Q1;
+ValeurCmp = MMBT2222;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E2778E;
+Reference = Q2;
+ValeurCmp = MMBT2222;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E2771E;
+Reference = Q3;
+ValeurCmp = MMBT2222;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E27756;
+Reference = Q4;
+ValeurCmp = MMBT2222;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E2730C;
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E27266;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E27298;
+Reference = R3;
+ValeurCmp = 47k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E272BB;
+Reference = R4;
+ValeurCmp = 47k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E272E1;
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E2B395;
+Reference = TP1;
+ValeurCmp = Touch_Plate;
+IdModule  = bb:TouchPlate-10mm;
+EndCmp
+
+EndListe
