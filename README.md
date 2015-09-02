@@ -1,6 +1,6 @@
 # ⨷⨷⨷⨷ WORK IN PROGRESS... ⨷⨷⨷⨷
 
-!(bb0.png)
+![PCB](bb0.png)
 
 I wanted to create a simple project to teach soldering and electronics to kids (10+ years). I first thought of a simple two transistor LED flasher, but then decided to make it interactive by adding a touch sensitive element to it. The idea is that once made, this PCB can be worn as a badge.
 
