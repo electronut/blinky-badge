@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 August 30, Sunday 19:24:00
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 02, Wednesday 14:00:04
 
 BeginCmp
-TimeStamp = /55E27575;
+TimeStamp = /55E6B2B2;
 Reference = BT1;
 ValeurCmp = Battery;
 IdModule  = bb:CR2032-SMD;
@@ -39,28 +39,28 @@ BeginCmp
 TimeStamp = /55E27140;
 Reference = Q1;
 ValeurCmp = MMBT2222;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+IdModule  = bb:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E2778E;
 Reference = Q2;
 ValeurCmp = MMBT2222;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+IdModule  = bb:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E2771E;
 Reference = Q3;
 ValeurCmp = MMBT2222;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+IdModule  = bb:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E27756;
 Reference = Q4;
 ValeurCmp = MMBT2222;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+IdModule  = bb:SOT-23;
 EndCmp
 
 BeginCmp
