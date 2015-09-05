@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 02, Wednesday 14:00:04
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 05, Saturday 19:10:59
 
 BeginCmp
 TimeStamp = /55E6B2B2;
@@ -25,14 +25,14 @@ BeginCmp
 TimeStamp = /55E27339;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = bb:MADW__PLCC2-3528;
+IdModule  = bb:LED-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E27378;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = bb:MADW__PLCC2-3528;
+IdModule  = bb:LED-1206;
 EndCmp
 
 BeginCmp
