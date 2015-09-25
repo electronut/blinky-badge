@@ -1,6 +1,6 @@
-![PCB](bb1-front.jpg)
+![PCB](bb-front.jpg)
 
-![PCB](bb1-back.jpg)
+![PCB](bb-back.jpg)
 
 I wanted to create a simple project to teach soldering and electronics
 to kids (10+ years) and beginners. I first thought of a simple two
