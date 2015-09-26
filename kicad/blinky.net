@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/mahesh/Documents/electronics/projects/blinky-badge/kicad/blinky.sch)
-    (date "2015 September 05, Saturday 19:10:48")
+    (date "2015 September 24, Thursday 16:33:02")
     (tool "Eeschema (2015-05-03 BZR 5637)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -65,13 +65,13 @@
       (tstamp 55E2730C))
     (comp (ref D1)
       (value LED)
-      (footprint LEDs:LED-1206)
+      (footprint bb:LED-1206)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E27339))
     (comp (ref D2)
       (value LED)
-      (footprint LEDs:LED-1206)
+      (footprint bb:LED-1206)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 55E27378))
@@ -106,27 +106,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55E6B2B2)))
   (libparts
-    (libpart (lib device) (part Battery)
-      (fields
-        (field (name Reference) BT)
-        (field (name Value) Battery))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part LED)
       (footprints
         (fp LED-3MM)
@@ -153,6 +132,27 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib bb) (part Touch_Plate)
+      (fields
+        (field (name Reference) TP)
+        (field (name Value) Touch_Plate))
+      (pins
+        (pin (num 1) (name 1) (type output))
+        (pin (num 2) (name 2) (type output))))
     (libpart (lib transistors) (part BC547)
       (aliases
         (alias BC546)
@@ -171,20 +171,20 @@
         (pin (num 1) (name C) (type passive))
         (pin (num 2) (name B) (type input))
         (pin (num 3) (name E) (type passive))))
-    (libpart (lib bb) (part Touch_Plate)
+    (libpart (lib device) (part Battery)
       (fields
-        (field (name Reference) TP)
-        (field (name Value) Touch_Plate))
+        (field (name Reference) BT)
+        (field (name Value) Battery))
       (pins
-        (pin (num 1) (name 1) (type output))
-        (pin (num 2) (name 2) (type output)))))
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical transistors)
       (uri "/Library/Application Support/kicad/library/transistors.lib"))
     (library (logical bb)
-      (uri /Users/mahesh/Documents/electronics/projects/blinky-badge/kicad/bb.lib)))
+      (uri /Users/mahesh/Documents/electronics/projects/blinky-badge/kicad/bb.lib))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
     (net (code 1) (name "Net-(C1-Pad1)")
       (node (ref Q4) (pin 2))

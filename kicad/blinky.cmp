@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 05, Saturday 19:10:59
+Cmp-Mod V01 Created by Cvpcb (2015-05-03 BZR 5637)-product   date = 2015 September 24, Thursday 16:39:44
 
 BeginCmp
 TimeStamp = /55E6B2B2;
@@ -39,28 +39,28 @@ BeginCmp
 TimeStamp = /55E27140;
 Reference = Q1;
 ValeurCmp = MMBT2222;
-IdModule  = bb:SOT-23;
+IdModule  = bb:SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E2778E;
 Reference = Q2;
 ValeurCmp = MMBT2222;
-IdModule  = bb:SOT-23;
+IdModule  = bb:SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E2771E;
 Reference = Q3;
 ValeurCmp = MMBT2222;
-IdModule  = bb:SOT-23;
+IdModule  = bb:SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /55E27756;
 Reference = Q4;
 ValeurCmp = MMBT2222;
-IdModule  = bb:SOT-23;
+IdModule  = bb:SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp
