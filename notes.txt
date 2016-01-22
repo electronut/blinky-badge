@@ -1,0 +1,12 @@
+(module TouchPlate-10mm (layer F.Cu) (tedit 55E32894)
+  (fp_text reference TP1 (at 0.254 12.7) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Touch_Plate (at 0.127 -12.573) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end -8.382 -5.461) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -6.731 -6.223 40) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
+)
+
+

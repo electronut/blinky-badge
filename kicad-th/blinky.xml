@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/mahesh/Documents/electronics/projects/blinky-badge/kicad/blinky.sch</source>
+    <date>2015 September 05, Saturday 10:52:24</date>
+    <tool>Eeschema (2015-05-03 BZR 5637)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>blinky.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>MMBT2222</value>
+      <footprint>bb:SOT-23</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E27140</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E271FF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E27245</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E27266</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E27298</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E272BB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E272E1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E2730C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>bb:MADW__PLCC2-3528</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E27339</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>bb:MADW__PLCC2-3528</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E27378</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT2222</value>
+      <footprint>bb:SOT-23</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E2771E</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT2222</value>
+      <footprint>bb:SOT-23</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E27756</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT2222</value>
+      <footprint>bb:SOT-23</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E2778E</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>Touch_Plate</value>
+      <footprint>bb:TouchPlate-10mm</footprint>
+      <libsource lib="bb" part="Touch_Plate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E2B395</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>bb:CR2032-SMD</footprint>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55E6B2B2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+      </aliases>
+      <description>BC547, 45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="bb" part="Touch_Plate">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Touch_Plate</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="output"/>
+        <pin num="2" name="2" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/Library/Application Support/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="bb">
+      <uri>/Users/mahesh/Documents/electronics/projects/blinky-badge/kicad/bb.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="Q4" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Q2" pin="3"/>
+      <node ref="BT1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="TP1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="12" name="VCC">
+      <node ref="BT1" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+  </nets>
+</export>

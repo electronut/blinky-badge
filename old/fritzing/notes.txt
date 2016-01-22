@@ -1,0 +1,9 @@
+[Fritzing]
+
+1. zip - no folder
+
+2. landscape?
+
+3. pin vs pad
+
+4. copper 0 copper 1

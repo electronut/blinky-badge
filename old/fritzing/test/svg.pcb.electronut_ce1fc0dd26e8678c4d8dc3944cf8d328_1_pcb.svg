@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="0.65in" x="0in" version="1.2" y="0in"  height="0.65in" viewBox="0 0 16.51 16.51" baseProfile="tiny">
+    <desc>
+        <referenceFile>sparkfun-sensors_touch1_pcb.svg</referenceFile>
+    </desc>
+    <g gorn="0.0"  id="copper1">
+        <circle class="other" fill="none" cx="8.255"  cy="8.255" drill="no" stroke="#F7BD13" r="1.796" stroke-width="3.81"/>
+        <circle class="other" fill="none" cx="8.255"  cy="8.255" drill="no" stroke="#F7BD13" r="6.35" stroke-width="3.81"/>
+        <circle class="other" fill="none" cx="8.255"  cy="8.255" drill="no" stroke="#F7BD13" r="1.796" stroke-width="3.81"/>
+        <circle class="other" fill="none" cx="8.255"  cy="8.255" drill="no" stroke="#F7BD13" r="6.35" stroke-width="3.81"/>
+        <circle fill="none" cx="1.905" gorn="0.0.4"  cy="8.255" connectorname="P$1" stroke="#F7BD13" id="connector0pad" r="0.427" stroke-width="0.254"/>
+        <circle fill="none" cx="8.255" gorn="0.0.5"  cy="8.255" connectorname="P$2" stroke="#F7BD13" id="connector1pad" r="0.427" stroke-width="0.254"/>
+        <g gorn="0.0.6"  id="copper0">
+            <circle fill="none" cx="1.905" gorn="0.0.6.0"  cy="8.255" connectorname="P$1" stroke="#F7BD13" id="connector0pad" r="0.427" stroke-width="0.254"/>
+            <circle fill="none" cx="8.255" gorn="0.0.6.1"  cy="8.255" connectorname="P$2" stroke="#F7BD13" id="connector1pad" r="0.427" stroke-width="0.254"/>
+        </g>
+    </g>
+    <g gorn="0.1"  id="silkscreen"/>
+</svg>

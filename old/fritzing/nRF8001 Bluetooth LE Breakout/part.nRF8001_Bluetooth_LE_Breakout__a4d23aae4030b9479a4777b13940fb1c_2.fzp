@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.7.5b.07.02.6130" moduleId="a4d23aae4030b9479a4777b13940fb1c_2">
+    <author>John De Cristofaro</author>
+    <title>nRF8001 Bluetooth LE Breakout</title>
+    <label>RF</label>
+    <date>2014-01-13</date>
+    <tags>
+        <tag>rf</tag>
+        <tag>bluetooth</tag>
+        <tag>breakout</tag>
+        <tag>adafruit</tag>
+    </tags>
+    <properties>
+        <property name="family"></property>
+        <property name="part number"></property>
+    </properties>
+    <description>nRF8001 Breakout Board</description>
+    <views>
+        <iconView>
+            <layers image="icon/nRF8001_Bluetooth_LE_Breakout__598f5fa84__icon__c3cf119777c01d1d679eabba82830d62.svg">
+                <layer layerId="icon"/>
+            </layers>
+        </iconView>
+        <breadboardView>
+            <layers image="breadboard/nRF8001_Bluetooth_LE_Breakout__598f5fa84__breadboard__3e9b71ca66e3b0bdab15112ed23e0d5d.svg">
+                <layer layerId="breadboard"/>
+            </layers>
+        </breadboardView>
+        <schematicView>
+            <layers image="schematic/nRF8001_Bluetooth_LE_Breakout__598f5fa84__schematic__00f190e4ebc22fbc66fd77321eac581b.svg">
+                <layer layerId="schematic"/>
+            </layers>
+        </schematicView>
+        <pcbView>
+            <layers image="pcb/nRF8001_Bluetooth_LE_Breakout__598f5fa84__pcb__b85e957ee00c4a009e5466cf121ef50f.svg">
+                <layer layerId="copper0"/>
+                <layer layerId="silkscreen"/>
+            </layers>
+        </pcbView>
+    </views>
+    <connectors>
+        <connector id="connector3" type="male" name="MOSI">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector3pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector3pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector3pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector4" type="male" name="REQ">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector4pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector4pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector4pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector5" type="male" name="RDY">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector5pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector5pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector5pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector6" type="male" name="ACT">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector6pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector6pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector6pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector7" type="male" name="RST">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector7pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector7pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector7pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector8" type="male" name="3Vo">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector8pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector8pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector8pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector9" type="male" name="GND">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector9pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector9pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector9pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector10" type="male" name="VIN">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector10pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector10pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector10pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector1" type="male" name="SCK">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector1pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector1pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector1pin"/>
+                </pcbView>
+            </views>
+        </connector>
+        <connector id="connector2" type="male" name="MISO">
+            <description>no description yet</description>
+            <views>
+                <breadboardView>
+                    <p layer="breadboard" svgId="connector2pin"/>
+                </breadboardView>
+                <schematicView>
+                    <p layer="schematic" svgId="connector2pin"/>
+                </schematicView>
+                <pcbView>
+                    <p layer="copper0" svgId="connector2pin"/>
+                </pcbView>
+            </views>
+        </connector>
+    </connectors>
+</module>
